@@ -55,3 +55,22 @@
 
 //npm i cors
 // every time data params me nhi milta hai. object ke form me bhi data bheja ja skta hai.
+
+
+// first way - params- request.params- =>{}
+//body   => {}
+//request.query  =>{}
+
+//any lga do to get post dono me  km krta h.
+// middleware after request , before response
+
+//controler- conroler model se connect hota h , controler data trianfer krta h , model connected h database se.
+
+//mongoose-npm install mongoose
+//https://www.mongodb.com/try/download/shell
+// controler model se and model database se connect hota hai.
+
+//request and response ke bich jo task ho rha h use middleware khte h
+
+// bricpt js - password ko hr bar encrpt krb dega
+//npm i bcryptjs
