@@ -70,6 +70,7 @@
 //https://www.mongodb.com/try/download/shell
 // controler model se and model database se connect hota hai.
 
+// npm i dotenv
 //request and response ke bich jo task ho rha h use middleware khte h
 
 // bricpt js - password ko hr bar encrpt krb dega
