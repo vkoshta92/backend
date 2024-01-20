@@ -5,6 +5,19 @@ const SignupModel = require("../model/AccountModel");
 exports.signup= async (request,response,next)=>{
 try{
    const bodyData= request.body; // jo frontend bhejega.
+if(!bodyData.name){
+    return response.status(400).json({
+        status:"failed",
+        message:"Name is required"
+    })
+}
+
+if(!bodyData.password){
+    return response.status(400).json({
+        status:"failed",
+        message:"Password is required"
+    })
+}
    const signupData={
     name:bodyData.name,
     email:bodyData.email,

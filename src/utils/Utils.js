@@ -1,8 +1,8 @@
 
 
-const bricpt= require('bcryptjs')
+const bcrypt= require('bcryptjs')
 exports.passwordEncoded=(password)=>{
-   const salt=bricpt.genSaltSync(10)
+   const salt=bcrypt.genSaltSync(10)
    return bcrypt.hashSync(password,salt)
 }
 
